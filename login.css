@@ -1,0 +1,141 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:'Montserrat', sans-serif;
+	background:url(8.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	text-align:center:
+	
+}
+.logo{
+	position:absolute;
+	top:4%;
+	left:41%;
+	margin:0 auto;
+	
+	
+}
+
+.box{
+	position:absolute;
+	top:53%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:400px;
+	padding:40px;
+	background: rgba(0,0,0,.7);
+	box-sizing:0 15px 25px rgba(0,0,0,.5);
+	border-radius:10px;
+}
+.box h1{
+	margin:0 0 30px;
+	padding:0;
+	color:#fff;
+	text-align:center;
+}
+.box .inputbox {
+	position:relative;
+}
+.box .inputbox input{
+	width:100%;
+	padding:10px 0;
+	font-size:16px;
+	letter-spacing:1px;
+	color:#fff;
+	margin-bottom:30px;
+	border:none;
+	border-bottom:1px solid #fff;
+	outline:none;
+	background:transparent;
+}
+.box .inputbox  label{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:10px 0;
+	font-size:16px;
+	color:#fff;
+	letter-spacing:1px;
+	pointer-events:none;
+	transition:.5s;
+}
+.box .inputbox input:focus~label,.box .inputbox input:valid~label{
+	top:-18px;
+	left:0;
+	color:#19bcd1;
+	font-size:12px;
+	
+	
+}
+.box input[type="submit"]{
+	
+	border:none;
+	outline:none;
+    font-size: 17px;
+	color:#fff;
+	background:#19bcd1;
+	padding:8px 0;
+	width:100%;
+	cursor:pointer;
+	border-radius:50px;
+			
+}
+.or{
+	color:#fff;
+	text-align:center;
+	padding:12px 0;
+	
+    display:flex;
+   
+   
+   
+}
+.or::before,.or::after{
+	
+	content: "";
+    width: 50%;
+    height: 1px;
+   background-color:aliceblue;
+    margin: 10px 0;
+    
+}
+.or snap{
+	padding:0 12px;
+
+}
+
+button{
+    margin:0 auto;
+    border:none;
+	outline:none;
+    font-size: 17px;
+	color:#313131;
+	background-color: #f7f7f7;
+	padding:8px 0;
+	width:60%;
+	cursor:pointer;
+	border-radius:50px;     
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+ button img{
+    position: relative;
+   padding-right: 10px;
+    
+}
+ button a{
+   
+position: relative;
+
+}
+.box p{
+	color:#fff;
+	float:right;
+}
+.box a{
+		color:#fff;
+
+}
